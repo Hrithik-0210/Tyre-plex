@@ -26,8 +26,8 @@ const DealSlider = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
       {
@@ -49,7 +49,7 @@ const DealSlider = () => {
     ],
   };
   return (
-    <div className="tire-company-list border border-red-500">
+    <div className="tire-company-list  my-2">
       <Slider {...settings}>
         {tireCompanyNames.map((company, index) => (
           <div className="border flex justify-center items-center">

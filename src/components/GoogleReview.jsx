@@ -114,20 +114,22 @@ const GoogleReview = () => {
     <div className="google-reviews">
       <Slider {...settings}>
         {reviews.map((review) => (
-          <div key={review.reviewId} className="review m-1 p-2">
-            <div className="flex justify-start items-center gap-2">
-              <LiaUserSolid className="w-8 h-8 border rounded-full bg-gray-300" />
-              <div className="flex flex-col">
-                <h2 className="text-sm font-medium">{review.reviewerName}</h2>
-                <span className="text-xs text-gray-500">
-                  {review.reviewDate}
-                </span>
+          <div key={review.reviewId} className="review m-1 p-2 h-60">
+            <div className="mx-2 border p-2 rounded-lg h-full ">
+              <div className="flex justify-start items-center gap-2">
+                <LiaUserSolid className="w-8 h-8 border rounded-full bg-gray-300" />
+                <div className="flex flex-col">
+                  <h2 className="text-sm font-medium">{review.reviewerName}</h2>
+                  <span className="text-xs text-gray-500">
+                    {review.reviewDate}
+                  </span>
+                </div>
               </div>
+              <div className="rating text-yellow-500">
+                {renderStars(review.rating)}
+              </div>
+              <p className="text-sm">{review.reviewText}</p>
             </div>
-            <div className="rating text-yellow-500">
-              {renderStars(review.rating)}
-            </div>
-            <p className="text-sm">{review.reviewText}</p>
           </div>
         ))}
       </Slider>
