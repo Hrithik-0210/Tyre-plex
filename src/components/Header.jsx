@@ -6,8 +6,12 @@ const Header = () => {
   return (
     <div className=" w-svw shadow-sm">
       <div className="w-[94svw] flex justify-between  mx-auto">
-        <div className="w-48 h-12 my-1">
-          <img src={logo} alt="logo_img" className="w-full h-full" />
+        <div className="w-40 h-9 my-3">
+          <img
+            src={logo}
+            alt="logo_img"
+            className="w-full h-full drop-shadow-none"
+          />
         </div>
         <div className="navlinks hidden  lg:flex justify-center items-center">
           <ul className="flex gap-4 text-sm font-medium">
