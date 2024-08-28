@@ -68,7 +68,7 @@ const OfferedService = () => {
     ],
   };
   return (
-    <div className="service-offered-container">
+    <div className="service-offered-container my-2">
       <Slider {...settings}>
         {services.map((service, index) => (
           <div key={index} className="flex justify-center items-center">

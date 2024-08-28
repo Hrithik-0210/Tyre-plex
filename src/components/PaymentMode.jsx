@@ -69,7 +69,7 @@ const PaymentMode = () => {
     <div className="payment-mode-container grid grid-flow-row  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
       {paymentModes.map((paymentMode, index) => (
         <div key={index} className=" p-1 mt-2">
-          <div className="rounded-lg  flex gap-3  items-center justify-start p-2 ">
+          <div className="rounded-lg  flex gap-3  items-center justify-start p-2 border ">
             <div className="rounded-md">
               <img
                 src={paymentMode.icon}

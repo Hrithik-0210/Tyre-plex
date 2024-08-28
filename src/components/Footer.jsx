@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="top-box-container  border-b my-2 pb-2 grid grid-cols-2">
         <div className="Shop-logo-and-social-media-container  flex flex-col items-center justify-center gap-5">
           <div className="flex ">
-            <img src={Logo} alt="logo" className="w-24 h-7 lg:w-36 lg:h-10" />
+            <img src={Logo} alt="logo" className="w-24 h-7 lg:w-32 lg:h-8" />
           </div>
           <div className="social-media-logo flex gap-4  items-center ">
             <FaInstagram className="lg:w-6 lg:h-6" />

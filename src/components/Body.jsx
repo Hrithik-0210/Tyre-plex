@@ -5,6 +5,7 @@ import OfferedService from "./OfferedService";
 import PaymentMode from "./PaymentMode";
 import UserQuery from "./UserQuery";
 import Footer from "./Footer";
+import ProductList from "./ProductList";
 
 const Body = () => {
   return (
@@ -21,14 +22,18 @@ const Body = () => {
         <h2 className="text-lg font-medium">Service Offered by Dealer</h2>
         <OfferedService />
       </div>
-      <div className="offeredService-container w-full mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-3 bg-inherit">
+      <div className="product-sold-container w-full mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-3 bg-inherit">
+        <h2 className="text-lg font-medium">Product sold by this Dealer</h2>
+        <ProductList />
+      </div>
+      <div className="paymentMode-container w-full mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-3 bg-inherit">
         <h2 className="text-lg font-medium">Payment Modes</h2>
         <PaymentMode />
       </div>
-      <div className="offeredService-container w-full mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-3 bg-inherit">
+      <div className="userQuery-container w-full mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-3 bg-inherit">
         <UserQuery />
       </div>
-      <div className="offeredService-container w-full mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-3 bg-inherit">
+      <div className="footer-container w-full mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-3 bg-inherit">
         <Footer />
       </div>
     </div>
