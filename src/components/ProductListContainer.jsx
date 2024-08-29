@@ -313,7 +313,7 @@ const ProductListContainer = () => {
           </label>
           <select
             id="company-dropdown"
-            className="border p-1 rounded-lg text-sm"
+            className="border p-1 rounded-lg text-sm bg-white"
             value={selectedCompany}
             onChange={(e) => setSelectedCompany(e.target.value)}
           >
