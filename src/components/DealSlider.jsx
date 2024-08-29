@@ -6,7 +6,7 @@ import Michelin from "../images/companyLogo/Michelin.png";
 import Bridgestone from "../images/companyLogo/bridgestone.png";
 import Goodyear from "../images/companyLogo/goodyear.png";
 import CooperTire from "../images/companyLogo/Cooper Tire.png";
-import Yokohama from "../images/companyLogo/Yokohama.png";
+import Yokohama from "../images/companyLogo/Yokohama.webp";
 import Nexen from "../images/companyLogo/Nexen.png";
 import CEAT from "../images/companyLogo/ceat.png";
 import MRF from "../images/companyLogo/MRF-Logo.png";
@@ -67,14 +67,14 @@ const DealSlider = () => {
         {tireCompanies.map((company, index) => (
           <div key={index} className="flex justify-center items-center">
             <div className="deals-main-container mx-4 my-3  p-2 rounded-lg h-full border ">
-              <div className="logo-img-container w-[70%] h-12 mx-auto flex items-center justify-center rounded-md">
+              <div className="logo-img-container w-[60%] h-16 mx-auto flex items-center justify-center rounded-md">
                 <img
                   src={company.logo}
                   alt={company.name}
                   className="h-full w-full rounded"
                 />
               </div>
-              <p className="flex place-items-end my-5 justify-center text-sm text-gray-500 font-medium ">
+              <p className="flex place-items-end mt-5 justify-center text-sm text-gray-500 font-medium ">
                 {company.name}
               </p>
             </div>

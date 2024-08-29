@@ -16,8 +16,8 @@ const ShopImageSlider = () => {
   return (
     <div className="rounded-lg">
       <Slider {...settings}>
-        <img src={shopImage1} alt="img1" className="rounded-lg w-64 h-52 " />
-        <img src={shopImage2} alt="img2" className="rounded-lg w-64 h-52" />
+        <img src={shopImage1} alt="img1" className="rounded-lg w-64 h-60 " />
+        <img src={shopImage2} alt="img2" className="rounded-lg w-64 h-60" />
       </Slider>
     </div>
   );

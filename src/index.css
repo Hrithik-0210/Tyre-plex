@@ -10,3 +10,9 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
+@layer utilities {
+  .clip-path-right-half {
+    clip-path: inset(0 30% 10% 0);
+  }
+}

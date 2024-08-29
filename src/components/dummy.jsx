@@ -338,7 +338,7 @@ const TireFeatures = [
   },
 ];
 
-const ProductList = () => {
+const ProductListContainer = () => {
   const initialVisibleCount = 6;
   const [visible, setVisible] = useState(initialVisibleCount);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -380,12 +380,7 @@ const ProductList = () => {
           >
             Company
           </label>
-          <select
-            id="company-dropdown"
-            // value={selectedCompany}
-            // onChange={handleChange}
-            className="border p-1 rounded-lg"
-          >
+          <select id="company-dropdown" className="border p-1 rounded-lg">
             <option value="">-- Select a Company --</option>
             {companies.map((company, index) => (
               <option key={index} value={company.name}>
@@ -445,4 +440,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default ProductListContainer;

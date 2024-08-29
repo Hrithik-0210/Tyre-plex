@@ -12,7 +12,7 @@ const ShopDetails = () => {
       <div className="top-box flex flex-col md:flex-row w-full  justify-between ">
         <div className="leftBox-shop-Details-container md:w-[60%]">
           <div className="shop-name flex gap-2">
-            <h2 className="text-base font-semibold">
+            <h2 className="text-base font-semibold lg:text-base">
               SHREE HEMKUNT TYRES AND SERVICES
             </h2>
             <span className="text-green-500 flex">
@@ -57,7 +57,7 @@ const ShopDetails = () => {
             </button>
           </div>
         </div>
-        <div className="right-side-image-conatiner hidden md:block  md:w-1/4 shadow-lg rounded-lg  h-fit">
+        <div className="right-side-image-conatiner hidden lg:block  md:w-1/3 shadow-lg rounded-lg  h-fit">
           <ShopImageSlider />
         </div>
       </div>

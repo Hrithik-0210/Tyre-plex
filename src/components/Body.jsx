@@ -5,7 +5,7 @@ import OfferedService from "./OfferedService";
 import PaymentMode from "./PaymentMode";
 import UserQuery from "./UserQuery";
 import Footer from "./Footer";
-import ProductList from "./ProductList";
+import ProductListContainer from "./ProductListContainer";
 
 const Body = () => {
   return (
@@ -24,7 +24,7 @@ const Body = () => {
       </div>
       <div className="product-sold-container w-full mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-3 bg-inherit">
         <h2 className="text-lg font-medium">Product sold by this Dealer</h2>
-        <ProductList />
+        <ProductListContainer />
       </div>
       <div className="paymentMode-container w-full mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-3 bg-inherit">
         <h2 className="text-lg font-medium">Payment Modes</h2>
