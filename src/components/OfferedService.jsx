@@ -6,7 +6,7 @@ import TyreSales from "../images/ServiceIcons/tyresales.png";
 import TyreMaintenance from "../images/ServiceIcons/tyreMaintenance.png";
 import TyreBalanace from "../images/ServiceIcons/tyreBalance.png";
 import TyreReplacement from "../images/ServiceIcons/tyreReplacement.png";
-import WheelAlignment from "../images/ServiceIcons/wheelAlignment.png";
+import WheelAlignment from "../images/ServiceIcons/wheelalignment.png";
 
 const services = [
   {

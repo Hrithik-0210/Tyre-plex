@@ -4,7 +4,6 @@ import CreditDebitIcon from "../images/icons/atm-card.png";
 import WalletIcon from "../images/icons/wallet.png";
 import NetBankingIcon from "../images/icons/mobile-banking.png";
 import UPI_Icon from "../images/icons/upi.png";
-import Slider from "react-slick";
 
 const paymentModes = [
   {

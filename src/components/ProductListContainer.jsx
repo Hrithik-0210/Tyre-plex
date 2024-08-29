@@ -4,7 +4,7 @@ import Michelin from "../images/companyLogo/Michelin.png";
 import Bridgestone from "../images/companyLogo/bridgestone.png";
 import Goodyear from "../images/companyLogo/goodyear.png";
 import CooperTire from "../images/companyLogo/Cooper Tire.png";
-import Yokohama from "../images/companyLogo/Yokohama.png";
+import Yokohama from "../images/companyLogo/yokohama.webp";
 import Nexen from "../images/companyLogo/Nexen.png";
 import CEAT from "../images/companyLogo/ceat.png";
 import MRF from "../images/companyLogo/MRF-Logo.png";
