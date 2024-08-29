@@ -9,7 +9,7 @@ import ProductListContainer from "./ProductListContainer";
 
 const Body = () => {
   return (
-    <div className="body-main-container w-[80svw] mx-auto bg-inherit">
+    <div className="body-main-container w-[82svw] mx-auto bg-inherit">
       <ShopDetails />
 
       {/* Deals in Box */}

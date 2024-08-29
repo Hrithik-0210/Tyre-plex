@@ -30,7 +30,7 @@ const ProductCard = ({ items }) => {
                 className="w-24 h-10 rounded-md"
               />
             </div>
-            <div className=" flex w-48 h-48">
+            <div className=" flex w-36 h-36">
               <img
                 src={tire.tyreImage}
                 alt={`Image of ${tire.model}`}
