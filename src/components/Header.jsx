@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className=" w-svw shadow-sm">
       <div className="w-[94svw] flex justify-between  mx-auto">
-        <div className="w-40 h-9 my-3">
+        <div className="w-36 h-8 my-3">
           <img
             src={logo}
             alt="logo_img"
