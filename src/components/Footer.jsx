@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-links my-4 flex justify-center ">
-          <ul className="grid grid-cols-2 text-xs gap-3 lg:text-sm xl:grid-cols-3">
+          <ul className="grid grid-cols-2 text-xs gap-3 lg:text-sm xl:grid-cols-2">
             <li className="hover:text-blue-600">
               <a href="">Who We Are</a>
             </li>
